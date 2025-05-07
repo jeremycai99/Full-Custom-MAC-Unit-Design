@@ -10,4 +10,5 @@ This repo contains one single-cycle MAC unit design and one two-stage pipeline M
 - Low power consumption (average 0.95mW for single-cycle @225MHz, 1.18mW for pipeline @417MHz)
 
 ## Design Details
-
+The single-cycle design follows the block diagram shown in below:
+![Single-Cycle MAC Unit Block Diagram](doc/mac_unit_sc_block_diagram.png)
