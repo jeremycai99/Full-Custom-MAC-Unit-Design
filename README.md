@@ -8,4 +8,6 @@ This repo contains one single-cycle MAC unit design and one two-stage pipeline M
 - Minimum area design: 0.95mW per MAC operation with area 1291 $um^2$ for single-cycle; 1441 $um^2$ at 417MHz for two-stage pipeline design. 
 - Optimized delay performance and maximum clock frequency: The maximum clock frequency for the single-cycle design is 225MHz with worst-case CBA carry propagation, and it is a maximum of 417MHz for the pipeline design.
 - Low power consumption (average 0.95mW for single-cycle @225MHz, 1.18mW for pipeline @417MHz)
-- 
+
+## Design Details
+
