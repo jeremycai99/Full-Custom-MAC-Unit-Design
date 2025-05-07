@@ -1,10 +1,11 @@
 # Full-Custom-MAC-Unit-Design
-This repo contains one single cycle MAC unit design and one two-stage pipeline mac unit design with Carry Bypass Adder (CBA) as accumulator, using radix-4 booth encoding. The design is based on transistors-level, i.e., full-custom design.
+This repo contains one single-cycle MAC unit design and one two-stage pipeline MAC unit design with Carry Bypass Adder (CBA) as accumulator, using radix-4 Booth encoding. The design is based on transistor-level, i.e., full-custom design.
 
 ## Key Features
-- 8-bit radix-4 booth encoding multiplier
-- 16-bit Carry Bypass Adder
-- Minimum area design (* um^2 for single-cycle, *um^2 for pipeline)
-- Optimized delay performance and maximum clock frequency (with various test cases attached).
-- Low power consumption (average *uW for single-cycle @clk_freq, *uW for pipeline @clk_freq)
+- Full-custom MAC unit based on GPDK045.
+- 8-bit radix-4 Booth encoding multiplier.
+- 16-bit Carry Bypass Adder (optimal compared to Ripple Carry Adder, Carry Look-Ahead Adder, and Han-Carlson Adder.
+- Minimum area design: 0.95mW per MAC operation with area 1291$um^2$ for single-cycle; 1441$um^2$ at 417MHz for two-stage pipeline design. 
+- Optimized delay performance and maximum clock frequency: The maximum clock frequency for the single-cycle design is 225MHz with worst-case CBA carry propagation, and it is a maximum of 417MHz for the pipeline design.
+- Low power consumption (average 0.95mW for single-cycle @225MHz, 1.18mW for pipeline @417MHz)
 - 
