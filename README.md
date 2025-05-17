@@ -25,5 +25,7 @@ Layout screenshot for single-cycle design:
 Layout screenshot for pipeline design:
 ![Pipeline MAC Unit Layout](doc/mac_ppl_layout.png)
 
+Intended MAC test cases:
+![Test Cases](doc/test_cases.png)
 Function Verification
 ![Function Verification](doc/funct_verification.png)
