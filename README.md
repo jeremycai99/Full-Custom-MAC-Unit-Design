@@ -1,6 +1,8 @@
 # Full-Custom-MAC-Unit-Design
 This repo contains one single-cycle MAC unit design and one two-stage pipeline MAC unit design with Carry Bypass Adder (CBA) as accumulator, using Radix-4 Booth encoding. The design is based on transistor-level, i.e., full-custom design.
 
+The single cycle design originates from course project, and it was extended to pipeline design for best project competition. Both designs excelled in PAD metrics and I won the top design award :-)
+
 ## Key Features
 - All designs under 1.0V.
 - Full-custom MAC unit based on GPDK045, with Metal 5 top layer.
