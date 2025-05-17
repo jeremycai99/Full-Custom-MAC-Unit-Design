@@ -13,3 +13,6 @@ This repo contains one single-cycle MAC unit design and one two-stage pipeline M
 ## Design Details
 The single-cycle design follows the block diagram shown in below:
 ![Single-Cycle MAC Unit Block Diagram](doc/mac_unit_sc_block_diagram.png)
+
+Also the pipeline design block diagram:
+![Pipeline MAC Unit Block Diagram](doc/mac_unit_ppl_block_diagram.png)
